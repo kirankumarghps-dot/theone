@@ -1,0 +1,25 @@
+<a class="brand" href="index.html" aria-label="Growth Hire Partners home">
+    <img src="images/logo.jpg"
+         alt="Growth Hire Partners Logo"
+         class="brand-logo">
+       </a>
+
+       /* Growth Hire Partners Logo */
+.brand {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.brand-logo {
+    width: 230px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .brand-logo {
+        width: 160px;
+    }
+}
